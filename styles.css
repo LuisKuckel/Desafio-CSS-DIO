@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    background-color: #000000;
+    border-bottom: 2px solid; 
+}
+
+.banner {
+    background-image: url('../Desafio-CSS-DIO/assets/images/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-blend-mode: darken;
+    border-bottom-width: 1px;
+    border-bottom-color: #1472B7;
+
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.logo {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.751);
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 0;
+    color:#1472B7;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+    color:#ffffff;
+    text-decoration: bold;
+}
+
+.banner button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #1472B7;
+    background-color: transparent;
+    border: 1px solid #1472B7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    background-color: #000000;
+    border-bottom: 2px solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1472B7;
+}
+
+#course-content h2{
+    font-family:Raleway, sans-serif, 700px, bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    width: 477px;
+    height: 38px;
+    text-align: center;
+    color:#1472B7;
+}
+
+#course-content p{
+    font-family:Raleway, sans-serif, 400px, normal;
+    font-size: 16px;
+    width: 477px;
+    height: 38px;
+    text-align: center;
+    color:#ffffff;
+}
+
+.modules-list span {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    color: #1472B7;
+    font-family:Raleway, sans-serif, 400px, normal;
+}
+
+.module {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 10px;
+    background-color: #1817174a;
+    width: 477px;
+    color: #ffffff;
+    border: 1px solid #1472B7;
+    border-radius: 10px;
+    font-family:Raleway, sans-serif, 400px, normal;
+}
+
+#transform-world {
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    background-image: url('../Desafio-CSS-DIO/assets/images/woman-code.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000;
+    padding: 200px;
+    width: 1440;
+    height: 363;
+    top: 1138px;
+    scale: 0 deg;
+    opacity: 1;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+
+}
+
+#transform-world p {
+    text-align:left;
+    font-family:Raleway, sans-serif, 900px, bold;
+    font-size: 40px;
+    width: 244;
+    height: 141;
+    scale: 0 deg;
+    opacity: 1;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(11, 129, 240, 0.622);
+    text-decoration: bold;
+    color: #ffffff;
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    background-color: #000000;
+    border-bottom: 2px solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1472B7;
+}
+
+#professional-challenges h2 {
+    font-family:Raleway, sans-serif, 700px, bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    width: 746px;
+    height: 76px;
+    top: 1577px;
+    left: 347px;
+    text-align: center;
+    color:#1472B7;
+}
+
+#professional-challenges p {
+    font-family:Raleway, sans-serif, 400px, normal;
+    font-size: 16px;
+    width: 746px;
+    height: 38px;
+    top: 1673px;
+    left: 347px;
+    text-align: center;
+    color:#ffffff;
+}
+
+.dio-logo {
+    width: 310px;
+    height: 44px;
+    top:59px;
+    left: 565px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    background-color: #000000;
+}
+
+footer p {
+    font-family:Raleway, sans-serif, 400px, normal;
+    font-size: 18px;
+    width: 746px;
+    height: 38px;
+    top: 1673px;
+    left: 347px;
+    text-align: center;
+    color:#ffffff;
+}
